@@ -1,0 +1,28 @@
+# generate type
+generateType:
+  - SIMPLE
+  - DYNAMIC
+# model location
+modelPackage: entity.model
+# mapper package
+mapperInterfacePackage: mapper
+# xml package
+mapperXmPackage: mapper
+# jdbc driver class name
+driverClass:
+# jdbc connection url
+connectionUrl:
+# jdbc username
+username: root
+# jdbc password
+password: 123456
+#lombok
+lombok:
+  - ToString
+  - Getter
+  - Setter
+  - AccessorsChain
+  - NoArgsConstructor
+  - AllArgsConstructor
+  - Builder
+  - EqualsAndHashCode

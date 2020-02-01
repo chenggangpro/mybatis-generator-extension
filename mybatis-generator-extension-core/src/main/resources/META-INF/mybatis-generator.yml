@@ -1,0 +1,33 @@
+# generate type
+generateType:
+  - SIMPLE
+  - DYNAMIC
+# target trim pattern
+# note this should set the java_model prefix not table_name prefix
+tableTrimPattern: Prefix
+#parentLocation
+parentLocation: mybatis-generator-extension-test
+# model location
+modelPackage: entity.model
+# mapper package
+mapperInterfacePackage: mapper
+# xml package
+mapperXmPackage: mapper
+# jdbc driver class name
+driverClass: com.mysql.cj.jdbc.Driver
+# jdbc connection url
+connectionUrl: jdbc:mysql://127.0.0.1:3306/mac?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
+# jdbc username
+username: root
+# jdbc password
+password: 123456
+#lombok
+lombok:
+  - ToString
+  - Getter
+  - Setter
+  - AccessorsChain
+  - NoArgsConstructor
+  - AllArgsConstructor
+  - Builder
+  - EqualsAndHashCode
