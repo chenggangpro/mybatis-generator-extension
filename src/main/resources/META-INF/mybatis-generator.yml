@@ -1,4 +1,4 @@
-# NOTE -->  generate type
+# NOTE --> generate type
 generateType:
   - SIMPLE
   - DYNAMIC
