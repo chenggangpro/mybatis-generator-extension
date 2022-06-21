@@ -49,7 +49,7 @@
         <snakeyaml.version>1.26</snakeyaml.version>
         <commons-lang3.version>3.9</commons-lang3.version>
         <junit.version>4.13.1</junit.version>
-        <mysql.version>8.0.18</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
     </properties>
 
     <dependencies>
